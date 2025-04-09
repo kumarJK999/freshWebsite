@@ -1,0 +1,8 @@
+  font-family: "Podkova", serif;
+    font-family: "Poppins", sans-serif;
+      font-family: "Frank Ruhl Libre", serif;
+
+      ==================================================================
+      
+ font awesome icon
+<i class="fa-solid fa-star"></i>

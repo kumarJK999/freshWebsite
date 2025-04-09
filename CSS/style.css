@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Podkova:wght@400..800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -138,8 +138,9 @@ nav .nav_elm ul li a:hover::after {
   width: 50%;
 }
 .bannar .right .bannarimg1 .bannar_img {
-  border-bottom-left-radius: 226px;
+  border-bottom-left-radius: 192px;
   position: relative;
+  width: 100%;
 }
 
 /* .bannar .right .bannar_img_child {
@@ -215,16 +216,212 @@ nav .nav_elm ul li a:hover::after {
            card Css end
 =============================================== */
 /* ==============================================
-           common Css end
+           fashion Css start
+=============================================== */
+#fashion {
+  margin-top: 188px;
+  margin-bottom: 335px;
+}
+#fashion .fashion_elmt {
+  display: flex;
+}
+
+#fashion .fashion_elmt .left {
+  width: 50%;
+}
+#fashion .fashion_elmt .left img {
+  width: 100%;
+}
+#fashion .fashion_elmt .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 63px;
+  margin-left: 28px;
+}
+#fashion .fashion_elmt .right h2 {
+  color: #000000;
+  font-size: 64px;
+  font-weight: 700;
+  font-family: "Frank Ruhl Libre", serif;
+  height: 162px;
+  width: 437px;
+}
+#fashion .fashion_elmt .right p {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  height: 186px;
+  width: 443px;
+}
+#fashion .fashion_elmt .right {
+  width: 50%;
+}
+/* #fashion .fashion_elmt*/
+.box {
+  height: fit-content;
+  width: 793px;
+  height: 280px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #feecc8;
+  padding: 72px 77px;
+  border-radius: 20px;
+  position: absolute;
+  right: 76px;
+  bottom: -211px;
+  z-index: -1;
+}
+.fashion_elmt {
+  position: relative;
+}
+.box .items h3 {
+  font-family: "Podkova", serif;
+  font-size: 64px;
+  font-weight: 700;
+  color: #000000;
+}
+.box .items p {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+}
+#fashion .fashion_elmt .box .items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+  text-align: center;
+}
+#fashion .fashion_elmt .box .items:nth-child(2) {
+  border-left: 1px solid #000;
+
+  border-right: 1px solid #000000;
+  padding: 0 57px;
+}
+/* ==============================================
+           fashion Css end
 =============================================== */
 /* ==============================================
-           common Css end
+           last part Css start
 =============================================== */
+#fashion_last_part {
+  background-color: #cfa485;
+  width: 100%;
+  height: 828px;
+}
+#fashion_last_part .last_part_elm {
+  display: flex;
+  column-gap: 32px;
+}
+#fashion_last_part .last_part_elm .part_1 {
+  width: 35%;
+}
+#fashion_last_part .last_part_elm .part_1 h3 {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 700;
+  font-family: "Frank Ruhl Libre", serif;
+  padding-top: 36px;
+}
+#fashion_last_part .last_part_elm .part_1 p {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Frank Ruhl Libre", serif;
+  padding-top: 43px;
+  padding-bottom: 40px;
+}
+
+#fashion_last_part .last_part_elm .part_1 a {
+  padding: 25px 86px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  transition: all linear 0.2s;
+  border: 1px solid #000000;
+}
+#fashion_last_part .last_part_elm .part_1 a:hover {
+  background: transparent;
+  color: #000000;
+}
+
+#fashion_last_part .last_part_elm .part_2 {
+  background: #ffffff;
+  width: 27.5%;
+  margin-top: 56px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+/* #fashion_last_part .last_part_elm .part_2 .part_2_img img {
+  height: 424px;
+  width: 366px;
+  background-position: center;
+  background-size: cover;
+} */
+.last_part_card_elm {
+  padding: 10px 22px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+#fashion_last_part .last_part_elm .part_2 .price {
+}
+
+#fashion_last_part .last_part_elm .part_2 .star_elmt {
+  display: flex;
+  column-gap: 8px;
+  color: #ffaf37;
+  font-size: 25px;
+}
+#fashion_last_part .last_part_elm .part_2 .part_2_img {
+  width: 100%;
+}
+#fashion_last_part .last_part_elm .part_2 .part_2_img img {
+  width: 100%;
+  max-width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+#fashion_last_part .last_part_elm .part_2 .last_part_card_elm h3 {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
+#fashion_last_part .last_part_elm .part_2 .last_part_card_elm .price {
+  display: flex;
+  column-gap: 31px;
+}
+#fashion_last_part
+  .last_part_elm
+  .part_2
+  .last_part_card_elm
+  .price
+  p:first-child {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #c4c4c4;
+}
+#fashion_last_part
+  .last_part_elm
+  .part_2
+  .last_part_card_elm
+  .price
+  p:last-child {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
 /* ==============================================
-           common Css end
-=============================================== */
-/* ==============================================
-           common Css end
+           last part Css end
 =============================================== */
 /* ==============================================
            common Css end
